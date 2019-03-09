@@ -23,7 +23,7 @@ killTomcat()
 cd $PROJ_PATH/order
 mvn clean install
 
-# 停tomcat
+# 调用函数，停tomcat
 killTomcat
 
 # 删除原有工程
